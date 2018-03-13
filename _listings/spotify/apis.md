@@ -20,8 +20,8 @@ tags:
 - Indie EdTech Data Jam
 - Change Log Example
 - Change Log
-created: "2018-02-25"
-modified: "2018-02-25"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/music/master/_listings/spotify/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -34,7 +34,7 @@ apis:
   tags: Music
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/music/master/_listings/spotify/users-user-id-playlists-playlist-id-tracks-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/music/master/_listings/spotify/albums-get.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
