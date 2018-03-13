@@ -34,7 +34,7 @@ apis:
   tags: Music
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/music/master/_listings/spotify/browse-featured-playlists-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/music/master/_listings/spotify/browse-new-releases-get.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
