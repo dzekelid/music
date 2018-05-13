@@ -1,13 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Spotify
-  description: Our Web API lets your applications fetch data from the Spotify music
-    catalog and manage user&rsquo;s playlists and saved music. Based on simple REST
-    principles, our Web API endpoints return metadata in JSON format about artists,
-    albums, and tracks directly from the Spotify catalogue. The API also provides
-    access to user-related data such as playlists and music saved in a &ldquo;Your
-    Music&rdquo; library, subject to user&rsquo;s authorization.
+  title: Spotify Browse Categories
+  description: '[Get a List of Browse Categories](https://developer.spotify.com/web-api/get-list-categories/)'
   version: v1
 host: api.spotify.com
 basePath: /v1
