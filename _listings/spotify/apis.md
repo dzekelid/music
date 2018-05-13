@@ -35,17 +35,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/users-user-id-playlists-playlist-id-tracks-put.md
-- name: Spotify Get Artist Top Tracks
-  description: '[Get an Artist''s Top Tracks](https://developer.spotify.com/web-api/get-artists-top-tracks/)'
+- name: Spotify Browse Categories
+  description: '[Get a List of Browse Categories](https://developer.spotify.com/web-api/get-list-categories/)'
   image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1
   tags: Music
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-id-top-tracks-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browse-categories-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-id-top-tracks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browse-categories-get-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
