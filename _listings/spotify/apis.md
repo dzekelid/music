@@ -35,17 +35,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/users-user-id-playlists-playlist-id-tracks-put.md
-- name: Spotify Get My Track Contains
-  description: '[Check Current User''s Saved Tracks](https://developer.spotify.com/web-api/check-users-saved-tracks/)'
+- name: Spotify Search
+  description: '[Search for an Item](https://developer.spotify.com/web-api/search-item/)'
   image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1
   tags: Music
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-tracks-contains-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-tracks-contains-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
