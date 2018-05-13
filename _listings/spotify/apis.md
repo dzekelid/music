@@ -35,17 +35,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/users-user-id-playlists-playlist-id-tracks-put.md
-- name: Spotify Get Track
-  description: '[Get a Track](https://developer.spotify.com/web-api/get-track/)'
+- name: Spotify Get User
+  description: '[Get a User''s Profile](https://developer.spotify.com/web-api/get-users-profile/)'
   image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1
   tags: Music
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/users-user-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/users-user-id-get-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
