@@ -35,17 +35,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/users-user-id-playlists-playlist-id-tracks-put.md
-- name: Spotify Browse Featured Playlists
-  description: '[Get a List of Featured Playlists](https://developer.spotify.com/web-api/get-list-featured-playlists/)'
+- name: Spotify Browse New Releases
+  description: '[Get a List of New Releases](https://developer.spotify.com/web-api/get-list-new-releases/)'
   image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1
   tags: Music
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browse-featured-playlists-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browse-new-releases-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browse-featured-playlists-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browse-new-releases-get-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
