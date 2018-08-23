@@ -1,5 +1,6 @@
 ---
 name: MuseScore
+x-slug: musescore
 description: MuseScore lets musicians play more music. Creating sheet music can easily
   be done using the free and open source MuseScore notation software, available for
   Windows, Mac OS and Linux. Join the MuseScore community and discover new sheet music.
@@ -8,17 +9,29 @@ description: MuseScore lets musicians play more music. Creating sheet music can 
   and start playing with the MuseScore mobile applications for iOS and Android.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/musescore-logo-whitebg-l.png
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Music
-- Music
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/music/master/_listings/musescore/apis.yaml
+x-alexaRank: "0"
+tags: Music
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/musescore/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: MuseScore
+  x-api-slug: musescore
+  description: MuseScore lets musicians play more music. Creating sheet music can
+    easily be done using the free and open source MuseScore notation software, available
+    for Windows, Mac OS and Linux. Join the MuseScore community and discover new sheet
+    music. The site has social features such as embedding, commenting, annotating,
+    statistics, groups and it comes with an open API for third party developers. Stop
+    printing scores and start playing with the MuseScore mobile applications for iOS
+    and Android.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/musescore-logo-whitebg-l.png
+  humanURL: https://musescore.org/
+  baseURL: https:///
+  tags: Music
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/musescore/openapi.md
 x-common:
 - type: x-developer
   url: http://developers.musescore.com/

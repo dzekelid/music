@@ -1,23 +1,28 @@
 ---
 name: Songkick
-description: Songkick is a website and service that provides personalised news about
-  live music events. It allows users to track their favorite bands and receive email
-  alerts when a tracked band plays a gig nearby. Songkick is one of the original high
-  tech startups in Londons Silicon Roundabout area.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/484_logo.png
+x-slug: songkick
+description: Songkick allows you to organize and track your favorite bands, get concert
+  alerts, and buy tickets. Get instant tour dates from your music library.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/484-songkick.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Music
-- Music
-- Events
-- API United Kingdom
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/music/master/_listings/songkick/apis.yaml
+x-alexaRank: "2802"
+tags: Music
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/songkick/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Songkick
+  x-api-slug: songkick
+  description: Songkick allows you to organize and track your favorite bands, get
+    concert alerts, and buy tickets. Get instant tour dates from your music library.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/484-songkick.jpg
+  humanURL: http://www.songkick.com
+  baseURL: https:///
+  tags: Music
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/songkick/openapi.md
 x-common:
 - type: x-base
   url: http://api.songkick.com/
@@ -26,9 +31,13 @@ x-common:
 - type: x-blog-rss
   url: http://blog.songkick.com/feed/atom/
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/songkick
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/songkick
 - type: x-developer
   url: http://www.songkick.com/developer
+- type: x-email
+  url: pr@songkick.com
 - type: x-github
   url: https://github.com/songkick
 - type: x-twitter

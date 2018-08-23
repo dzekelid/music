@@ -1,26 +1,26 @@
 ---
 name: musiXmatch
-description: Available on iOS, Android, WP7 desktop Mac, W8 and Spotify, musiXmatch
-  is currently the worldrsquo;s largest and official Lyrics Catalogue with more than
-  10,000,000 users worldwide and primary destination on mobile and connected devices
-  for Songs Lyrics passionate. musiXmatch keeps also available for developers, OEM,
-  and Music Services an awesome Lyrics API which let them building their own service
-  without caring about licensing agreement.
-image: http://mxm-static-hacks.s3.amazonaws.com/applanding/mxm_logo.png
+x-slug: musixmatch
+description: Musixmatch is the worlds largest catalog of song lyrics and translations
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1621-musixmatch.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Music
-- Music
-- Metadata
-- Lyrics
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/music/master/_listings/musixmatch/apis.yaml
+x-alexaRank: "2635"
+tags: Music
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/musixmatch/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: musiXmatch
+  x-api-slug: musixmatch
+  description: Musixmatch is the worlds largest catalog of song lyrics and translations
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1621-musixmatch.jpg
+  humanURL: https://musixmatch.com
+  baseURL: https:///
+  tags: Music
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/musixmatch/openapi.md
 x-common:
 - type: x-base
   url: http://api.musixmatch.com/ws/
@@ -30,6 +30,8 @@ x-common:
   url: http://blog.musixmatch.com/rss
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/musixmatch
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/musixmatch
 - type: x-developer
   url: https://developer.musixmatch.com
 - type: x-github

@@ -7,443 +7,3133 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spoti
 x-kinRank: "8"
 x-alexaRank: "132"
 tags: Music
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Spotify Get Albums
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get Several Albums](https://developer.spotify.com/web-api/get-several-albums/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//albums
-  tags: Music,Albums
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
-- name: Spotify Get Album
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get an Album](https://developer.spotify.com/web-api/get-album/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//albums/{id}
-  tags: Music,Albums
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
-- name: Spotify Get Album Tracks
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get an Album''s Tracks](https://developer.spotify.com/web-api/get-albums-tracks/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//albums/{id}/tracks
-  tags: Music,Album,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
-- name: Spotify Get Artists
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get Several Artists](https://developer.spotify.com/web-api/get-several-artists/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//artists
-  tags: Music,Artists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
-- name: Spotify Get Artist
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get an Artist](https://developer.spotify.com/web-api/get-artist/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//artists/{id}
-  tags: Music,Artists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
-- name: Spotify Get Artist Albums
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get an Artist''s Albums](https://developer.spotify.com/web-api/get-artists-albums/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//artists/{id}/albums
-  tags: Music,Artists,Albums
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
-- name: Spotify Get Artist Related ARtists
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get an Artist''s Related Artists](https://developer.spotify.com/web-api/get-related-artists/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//artists/{id}/related-artists
-  tags: Music,Artists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
-- name: Spotify Get Artist Top Tracks
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get an Artist''s Top Tracks](https://developer.spotify.com/web-api/get-artists-top-tracks/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//artists/{id}/top-tracks
-  tags: Music,Artists,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
-- name: Spotify Browse Categories
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get a List of Browse Categories](https://developer.spotify.com/web-api/get-list-categories/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//browse/categories
-  tags: Music,Categories
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
-- name: Spotify Browse Category
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get a Single Browse Category](https://developer.spotify.com/web-api/get-category/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//browse/categories/{category_id}
-  tags: Music,Categories,Playlists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
-- name: Spotify Browse Category Playlists
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get a Category''s playlists](https://developer.spotify.com/web-api/get-categorys-playlists/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//browse/categories/{category_id}/playlists
-  tags: Music,Playlists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
-- name: Spotify Browse Featured Playlists
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get a List of Featured Playlists](https://developer.spotify.com/web-api/get-list-featured-playlists/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//browse/featured-playlists
-  tags: Music,Playlists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
-- name: Spotify Browse New Releases
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get a List of New Releases](https://developer.spotify.com/web-api/get-list-new-releases/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//browse/new-releases
-  tags: Music,New Releases
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
-- name: Spotify Get Me
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get Current User''s Profile](https://developer.spotify.com/web-api/get-current-users-profile/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//me
-  tags: Music,Me
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
-- name: Spotify Delete Following
+- name: Spotify
   x-api-slug: spotify
-  description: '[Unfollow Artists or Users](https://developer.spotify.com/web-api/unfollow-artists-users/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//me/following
-  tags: Music,Me,Following
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
-- name: Spotify Get Following
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get User''s Followed Artists](https://developer.spotify.com/web-api/get-followed-artists/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//me/following
-  tags: Music,Me,Following
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
-- name: Spotify Update Following
+- name: Spotify
   x-api-slug: spotify
-  description: '[Follow Artists or Users](https://developer.spotify.com/web-api/follow-artists-users/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//me/following
-  tags: Music,Me,Following
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
-- name: Spotify Get Following contains
+- name: Spotify
   x-api-slug: spotify
-  description: '[Check if Current User Follows Artists or Users](https://developer.spotify.com/web-api/check-current-user-follows/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//me/following/contains
-  tags: Music,Me,Following
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
-- name: Spotify Delete My Tracks
+- name: Spotify
   x-api-slug: spotify
-  description: '[Remove Tracks for Current User](https://developer.spotify.com/web-api/remove-tracks-user/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//me/tracks
-  tags: Music,Me,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
-- name: Spotify Get My Tracks
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get Current User''s Saved Tracks](https://developer.spotify.com/web-api/get-users-saved-tracks/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//me/tracks
-  tags: Music,Me,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
-- name: Spotify Update My Tracks
+- name: Spotify
   x-api-slug: spotify
-  description: '[Save Tracks for Current User](https://developer.spotify.com/web-api/save-tracks-user/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//me/tracks
-  tags: Music,Me,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
-- name: Spotify Get My Track Contains
+- name: Spotify
   x-api-slug: spotify
-  description: '[Check Current User''s Saved Tracks](https://developer.spotify.com/web-api/check-users-saved-tracks/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//me/tracks/contains
-  tags: Music,Me,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
-- name: Spotify Search
+- name: Spotify
   x-api-slug: spotify
-  description: '[Search for an Item](https://developer.spotify.com/web-api/search-item/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//search
-  tags: Music,Search
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
-- name: Spotify Get Tracks
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get Several Tracks](https://developer.spotify.com/web-api/get-several-tracks/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//tracks
-  tags: Music,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
-- name: Spotify Get Track
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get a Track](https://developer.spotify.com/web-api/get-track/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//tracks/{id}
-  tags: Music,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
-- name: Spotify Get User
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get a User''s Profile](https://developer.spotify.com/web-api/get-users-profile/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}
-  tags: Music,User
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
-- name: Spotify Get User Playlists
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get a List of a User''s Playlists](https://developer.spotify.com/web-api/get-list-users-playlists/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}/playlists
-  tags: Music,User,Playlists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-openapi.md
-- name: Spotify Add User Playlists
+- name: Spotify
   x-api-slug: spotify
-  description: '[Create a Playlist](https://developer.spotify.com/web-api/create-playlist/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}/playlists
-  tags: Music,User,Playlists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-post-openapi.md
-- name: Spotify Get User Playlist
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get a Playlist](https://developer.spotify.com/web-api/get-playlist/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}/playlists/{playlist_id}
-  tags: Music,User,Playlists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-openapi.md
-- name: Spotify Update User Playlist
+- name: Spotify
   x-api-slug: spotify
-  description: '[Change a Playlist''s Details](https://developer.spotify.com/web-api/change-playlist-details/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}/playlists/{playlist_id}
-  tags: Music,User,Playlists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-put-openapi.md
-- name: Spotify Delete User Playlist Followers
+- name: Spotify
   x-api-slug: spotify
-  description: '[Unfollow a Playlist](https://developer.spotify.com/web-api/unfollow-playlist/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}/playlists/{playlist_id}/followers
-  tags: Music,User,Playlists,Followers
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-openapi.md
-- name: Spotify Update User Playlist Followers
+- name: Spotify
   x-api-slug: spotify
-  description: '[Follow a Playlist](https://developer.spotify.com/web-api/follow-playlist/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}/playlists/{playlist_id}/followers
-  tags: Music,User,Playlists,Followers
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-put-openapi.md
-- name: Spotify Get User Playlist Followers Contains
+- name: Spotify
   x-api-slug: spotify
-  description: '[Check if Users Follow a Playlist](https://developer.spotify.com/web-api/check-user-following-playlist/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}/playlists/{playlist_id}/followers/contains
-  tags: Music,User,Playlists,Followers
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-put-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowerscontains-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowerscontains-get-openapi.md
-- name: Spotify Delete User Playlist Tracks
+- name: Spotify
   x-api-slug: spotify
-  description: '[Remove Tracks from a Playlist](https://developer.spotify.com/web-api/remove-tracks-playlist/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}/playlists/{playlist_id}/tracks
-  tags: Music,User,Playlists,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowerscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowerscontains-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-delete-openapi.md
-- name: Spotify Get User Playlist Tracks
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get a Playlist''s Tracks](https://developer.spotify.com/web-api/get-playlists-tracks/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}/playlists/{playlist_id}/tracks
-  tags: Music,User,Playlists,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowerscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowerscontains-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-get-openapi.md
-- name: Spotify Add User Playlist Track
+- name: Spotify
   x-api-slug: spotify
-  description: '[Add Tracks to a Playlist](https://developer.spotify.com/web-api/add-tracks-to-playlist/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}/playlists/{playlist_id}/tracks
-  tags: Music,User,Playlists,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowerscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowerscontains-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-post-openapi.md
-- name: Spotify Update User Playlist Track
+- name: Spotify
   x-api-slug: spotify
-  description: '[Reorder or replace a Playlist''s Tracks](https://developer.spotify.com/web-api/reorder-playlists-tracks/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//users/{user_id}/playlists/{playlist_id}/tracks
-  tags: Music,User,Playlists,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, StreamRank
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/albumsidtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsecategoriescategory-idplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsefeaturedplaylists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/browsenewreleases-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/me-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowing-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/mefollowingcontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metracks-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/metrackscontains-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/search-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/tracksid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-id-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylists-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-id-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowers-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowerscontains-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idfollowerscontains-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/usersuser-idplaylistsplaylist-idtracks-put-openapi.md
 - name: Spotify
@@ -462,6 +3152,10 @@ x-common:
   url: https://developer.spotify.com/wp-content/uploads/apis.json
 - type: x-android-sdk
   url: https://developer.spotify.com/technologies/spotify-android-sdk/
+- type: x-api-gallery
+  url: http://spire.global.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://spotify.stack.network
 - type: x-application-gallery
   url: https://developer.spotify.com/my-applications/
 - type: x-application-gallery
