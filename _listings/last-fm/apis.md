@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/219-last-f
 x-kinRank: "7"
 x-alexaRank: "1410"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/last-fm/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Last.fm
-  x-api-slug: last-fm
-  description: The worlds largest online music service. Listen online, find out more
-    about your favourite artists, and get music recommendations, only at Last.fm
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/219-last-fm.jpg
-  humanURL: http://www.last.fm/api
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/last-fm/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.last.fm/

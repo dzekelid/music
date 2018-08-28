@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/sonicapi/apis.md
 specificationVersion: "0.14"
-apis:
-- name: sonicAPI
-  x-api-slug: sonicapi
-  description: Add high quality music processing to your app with the sonicAPI.com
-    web service. sonicAPI.com offers professional grade audio technology that can
-    easily be integrated into your web or phone app with just a few lines of code.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sonicapi-logo.png
-  humanURL: http://www.sonicAPI.com
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/sonicapi/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.sonicAPI.com

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/485-songst
 x-kinRank: "7"
 x-alexaRank: "3259"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/songsterr/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Songsterr
-  x-api-slug: songsterr
-  description: Guitar, bass and drum tabs & chords with free online tab player. One
-    accurate tab per song. Huge selection of 500,000 tabs. No abusive ads
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/485-songsterr.jpg
-  humanURL: http://www.songsterr.com/a/wa/api
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/songsterr/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.songsterr.com/a/wa/api

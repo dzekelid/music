@@ -1,81 +1,603 @@
 {
-	"name": "Flat",
-	"x-slug": "flat",
-	"description": "Whether youre a beginner or a professional composer, our user-friendly music composition software gives you all the tools that you need to make your own sheet music. You can write, listen, share and discover music scores right in your web browser on any device",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/flat-logo.png",
-	"x-kinRank": "7",
-	"x-alexaRank": "0",
-	"tags": "Music",
-	"created": "2018-08-23",
-	"modified": "2018-08-23",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/music\/master\/_listings\/flat\/apis.md",
+	"name": "Streadata.io API Gallery - Music",
+	"description": "This is a repository of music APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/music.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://music.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Flat",
-			"x-api-slug": "flat",
-			"description": "The Flat API allows you to easily extend the abilities of the [Flat Platform](https:\/\/flat.io), with a wide range of use cases including the following: Creating and importing new music scores using MusicXML or MIDI files. Browsing, updating, copying, exporting the users scores (for example in MP3, WAV or MIDI). Managing educational resources with Flat for Education: creating &amp; updating the organization accounts, the classes, rosters and assignments. The Flat API is built on HTTP. Our API is RESTful It has predictable resource URLs. It returns HTTP response codes to indicate errors. It also accepts and returns JSON in the HTTP body.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/flat-logo.png",
-			"humanURL": "http:\/\/flat.io",
-			"baseURL": "https:\/\/api.flat.io\/\/v2",
+			"name": "Etsy",
+			"x-api-slug": "etsy",
+			"description": "Find handmade, vintage, and unique goods that express who you are.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg",
+			"humanURL": "http://www.etsy.com/",
+			"baseURL": "https://openapi.etsy.com//v2/private/",
 			"tags": "Music",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/music\/master\/_listings\/flat\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/etsy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Last.fm",
+			"x-api-slug": "last-fm",
+			"description": "The worlds largest online music service. Listen online, find out more about your favourite artists, and get music recommendations, only at Last.fm",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/219-last-fm.jpg",
+			"humanURL": "http://www.last.fm/api",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/last-fm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mixcloud",
+			"x-api-slug": "mixcloud",
+			"description": "Listen to the best DJs and radio presenters in the world for free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/227-mixcloud.jpg",
+			"humanURL": "http://www.mixcloud.com/",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/mixcloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SoundCloud",
+			"x-api-slug": "soundcloud",
+			"description": "SoundCloud is a music and podcast streaming platform that lets you listen to millions of songs from around the world, or upload your own. Start listening now!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/252-soundcloud.jpg",
+			"humanURL": "http://soundcloud.com",
+			"baseURL": "https://api.soundcloud.com//",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/soundcloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "7digital",
+			"x-api-slug": "7digital",
+			"description": "Welcome to 7digital!    Choose from over 30 million high quality tracks in our store; download, sync and play your music on the go.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg",
+			"humanURL": "http://7digital.com",
+			"baseURL": "https://api.7digital.com/1.2/",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/7digital/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Eventful",
+			"x-api-slug": "eventful",
+			"description": "Find things to do in Los Angeles, CA. Eventful provides the most popular Los Angeles events, concerts, movies, comedy, nightlife, family events, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/400-eventful.jpg",
+			"humanURL": "http://eventful.com/",
+			"baseURL": "https:////",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/eventful/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gigulate",
+			"x-api-slug": "gigulate",
+			"description": "Music News, Blogs & Concert Listings, sorted.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/412-gigulate.jpg",
+			"humanURL": "http://gigulate.com/api/",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/gigulate/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Jamendo",
+			"x-api-slug": "jamendo",
+			"description": "Discover free music downloads & streaming from thousands of independent artists. Explore new songs every day, create your own playlists, and share your favorite tracks and albums with our community.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/429-jamendo.jpg",
+			"humanURL": "http://jamendo.com/",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/jamendo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MediaNet",
+			"x-api-slug": "medianet",
+			"description": "MediaNet provides partners catalog, publishing admin, on-demand streaming, DMCA radio, downloads, rights management, reporting, and paymentsunder one roof.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/435-medianet.jpg",
+			"humanURL": "http://www.mndigital.com/",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/medianet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "playme_api",
+			"x-api-slug": "playme-api",
+			"description": "Enjoy free access to your favorite songs and online radio stations",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/460-playme_api.jpg",
+			"humanURL": "http://lab.playme.com",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/playme-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Songkick",
+			"x-api-slug": "songkick",
+			"description": "Songkick allows you to organize and track your favorite bands, get concert alerts, and buy tickets. Get instant tour dates from your music library.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/484-songkick.jpg",
+			"humanURL": "http://www.songkick.com",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/songkick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Songsterr",
+			"x-api-slug": "songsterr",
+			"description": "Guitar, bass and drum tabs & chords with free online tab player. One accurate tab per song. Huge selection of 500,000 tabs. No abusive ads",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/485-songsterr.jpg",
+			"humanURL": "http://www.songsterr.com/a/wa/api",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/songsterr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rovi",
+			"x-api-slug": "rovi",
+			"description": "TiVo is a pioneer in DVRs | Buy TiVo BOLT, Roamio, and Mini | Free shipping | Integrate all streaming apps into TV | Start your free trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/648-rovi.jpg",
+			"humanURL": "http://developer.rovicorp.com/",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/rovi/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spreaker",
+			"x-api-slug": "spreaker",
+			"description": "Discover and listen to your favorite podcasts for free or sign up to create your own!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg",
+			"humanURL": "http://spreaker.com",
+			"baseURL": "http://api.spreaker.com//",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spreaker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AudioMicro",
+			"x-api-slug": "audiomicro",
+			"description": "Royalty Free stock music for any project - web, YouTube, film, TV, radio, DVDs, games, apps & more. License music and sound effects today from AudioMicro.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/693-audiomicro.jpg",
+			"humanURL": "http://www.audiomicro.com",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/audiomicro/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Free Music Archive",
+			"x-api-slug": "free-music-archive",
+			"description": "The Free Music Archive is an interactive library of high-quality, legal audio downloads.  The Free Music Archive is directed by WFMU, the most renowned freeform radio station in America.  Radio has always offered the public free access to new music. Th...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/796-free-music-archive.jpg",
+			"humanURL": "http://freemusicarchive.org",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/free-music-archive/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mobile Roadie",
+			"x-api-slug": "mobile-roadie",
+			"description": "App maker for Android and iOS. Mobile app builder for iPhone. Create your own iPhone apps without coding! Best app making software Mobile Roadie",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/855-mobile-roadie.jpg",
+			"humanURL": "http://mobileroadie.com",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/mobile-roadie/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gumroad",
+			"x-api-slug": "gumroad",
+			"description": "Sell music, comics, software, books, and films directly to your audience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg",
+			"humanURL": "http://gumroad.com",
+			"baseURL": "https://api.gumroad.com//v2",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/gumroad/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spotify",
+			"x-api-slug": "spotify",
+			"description": "Spotify is a digital music service that gives you access to millions of songs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg",
+			"humanURL": "http://www.spotify.com",
+			"baseURL": "https://api.spotify.com//v1",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Punkrock.org",
+			"x-api-slug": "punkrock-org",
+			"description": "A Community of Punk Rock Bands, Punk News, Punk Music Videos, Articles, Blogs, Photos and More...",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://punkrock.org",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/punkrock-org/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "sonicAPI",
+			"x-api-slug": "sonicapi",
+			"description": "Add high quality music processing to your app with the sonicAPI.com web service. sonicAPI.com offers professional grade audio technology that can easily be integrated into your web or phone app with just a few lines of code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sonicapi-logo.png",
+			"humanURL": "http://www.sonicAPI.com",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/sonicapi/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Soundrop",
+			"x-api-slug": "soundrop",
+			"description": "License cover songs & video game music - Free music distribution for original songs across top platforms. Collaborator & royalty MGMT - No recurring fees!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1550-soundrop.jpg",
+			"humanURL": "http://soundrop.fm/partners/developers",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/soundrop/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "musiXmatch",
+			"x-api-slug": "musixmatch",
+			"description": "Musixmatch is the worlds largest catalog of song lyrics and translations",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1621-musixmatch.jpg",
+			"humanURL": "https://musixmatch.com",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/musixmatch/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Linked Jazz",
+			"x-api-slug": "linked-jazz",
+			"description": "Revealing the Relationships of the Jazz Community    Linked Jazz is a research project investigating the application of Linked Open Data technologies to digital cultural heritage materials. Our goals are:    1) To uncover meaningful connections between...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1892-linked-jazz.jpg",
+			"humanURL": "https://linkedjazz.org/",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/linked-jazz/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cloudspeakers",
+			"x-api-slug": "cloudspeakers",
+			"description": "new music curated by music experts",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2195-cloudspeakers.jpg",
+			"humanURL": "http://apidoc.cloudspeakers.com/home",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/cloudspeakers/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Disney Post",
+			"x-api-slug": "disney-post",
+			"description": "The mission of the Walt Disney Company is to be one of the worlds leading producers and providers of entertainment and information.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2692-disney-post.jpg",
+			"humanURL": "http://thewaltdisneycompany.com/",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/disney-post/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MuseScore",
+			"x-api-slug": "musescore",
+			"description": "MuseScore lets musicians play more music. Creating sheet music can easily be done using the free and open source MuseScore notation software, available for Windows, Mac OS and Linux. Join the MuseScore community and discover new sheet music. The site has social features such as embedding, commenting, annotating, statistics, groups and it comes with an open API for third party developers. Stop printing scores and start playing with the MuseScore mobile applications for iOS and Android.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/musescore-logo-whitebg-l.png",
+			"humanURL": "https://musescore.org/",
+			"baseURL": "https:///",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/musescore/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bandsintown",
+			"x-api-slug": "bandsintown",
+			"description": "Concert discovery has changed. Previously, fans would seek out concert dates, but with the rise of social media, fans now expect that information to come to them. Bandsintown simplifies concert discovery by allowing music fans to Track their favorite artists, see which shows they have RSVP&rsquo;d to &amp; share these shows with their friends. The concerts are then synced with their calendar, so fans are sure not to miss the show.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bands_in_town_logo.png",
+			"humanURL": "http://news.bandsintown.com/home",
+			"baseURL": "https://rest.bandsintown.com//",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/bandsintown/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Freesound",
+			"x-api-slug": "freesound",
+			"description": "Freesound aims to create a huge collaborative database of audio snippets, samples, recordings, bleeps, ... released under Creative Commons licenses that allow their reuse. Freesound provides new and interesting ways of accessing these samples, allowing users to browse the sounds in new ways using keywords, a sounds-like type of browsing and more--upload and download sounds to and from the database, under the same creative commons license, and interact with fellow sound-artists!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Freesound_project_website_logo.png",
+			"humanURL": "https://freesound.org",
+			"baseURL": "https://www.freesound.org//apiv2",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/freesound/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flat",
+			"x-api-slug": "flat",
+			"description": "Whether youre a beginner or a professional composer, our user-friendly music composition software gives you all the tools that you need to make your own sheet music. You can write, listen, share and discover music scores right in your web browser on any device",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png",
+			"humanURL": "http://flat.io",
+			"baseURL": "https://api.flat.io//v2",
+			"tags": "Music",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/flat/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-api-gallery",
-			"url": "http:\/\/fitbit.api.gallery.streamdata.io"
-		},
-		{
-			"type": "x-api-stack",
-			"url": "http:\/\/flat.stack.network"
-		},
-		{
-			"type": "x-developer",
-			"url": "https:\/\/flat.io\/developers"
-		},
-		{
-			"type": "x-embeddable",
-			"url": "https:\/\/flat.io\/developers\/embed"
-		},
-		{
-			"type": "x-github",
-			"url": "https:\/\/github.com\/FlatIO"
-		},
-		{
-			"type": "x-pricing",
-			"url": "https:\/\/flat.io\/pricing"
-		},
-		{
-			"type": "x-privacy-policy",
-			"url": "https:\/\/flat.io\/help\/en\/policies\/#coppa-and-ferpa-compliance"
-		},
-		{
-			"type": "x-support",
-			"url": "https:\/\/flat.io\/help"
-		},
-		{
-			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/flat_io"
-		},
-		{
-			"type": "x-website",
-			"url": "http:\/\/flat.io"
-		}
-	],
+	"tags": "Music",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "Etsy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/etsy/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "Last.fm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/last-fm/apis.yaml"
+		},
+		{
+			"name": "Mixcloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/mixcloud/apis.yaml"
+		},
+		{
+			"name": "SoundCloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/soundcloud/apis.yaml"
+		},
+		{
+			"name": "7digital",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/7digital/apis.yaml"
+		},
+		{
+			"name": "Eventful",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/eventful/apis.yaml"
+		},
+		{
+			"name": "Gigulate",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/gigulate/apis.yaml"
+		},
+		{
+			"name": "Jamendo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/jamendo/apis.yaml"
+		},
+		{
+			"name": "MediaNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/medianet/apis.yaml"
+		},
+		{
+			"name": "playme_api",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/playme-api/apis.yaml"
+		},
+		{
+			"name": "Songkick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/songkick/apis.yaml"
+		},
+		{
+			"name": "Songsterr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/songsterr/apis.yaml"
+		},
+		{
+			"name": "Rovi",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/rovi/apis.yaml"
+		},
+		{
+			"name": "Spreaker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spreaker/apis.yaml"
+		},
+		{
+			"name": "AudioMicro",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/audiomicro/apis.yaml"
+		},
+		{
+			"name": "Free Music Archive",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/free-music-archive/apis.yaml"
+		},
+		{
+			"name": "Mobile Roadie",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/mobile-roadie/apis.yaml"
+		},
+		{
+			"name": "Gumroad",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/gumroad/apis.yaml"
+		},
+		{
+			"name": "Spotify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/spotify/apis.yaml"
+		},
+		{
+			"name": "Punkrock.org",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/punkrock-org/apis.yaml"
+		},
+		{
+			"name": "sonicAPI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/sonicapi/apis.yaml"
+		},
+		{
+			"name": "Soundrop",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/soundrop/apis.yaml"
+		},
+		{
+			"name": "musiXmatch",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/musixmatch/apis.yaml"
+		},
+		{
+			"name": "Linked Jazz",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/linked-jazz/apis.yaml"
+		},
+		{
+			"name": "Cloudspeakers",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/cloudspeakers/apis.yaml"
+		},
+		{
+			"name": "Disney Post",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/disney-post/apis.yaml"
+		},
+		{
+			"name": "MuseScore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/musescore/apis.yaml"
+		},
+		{
+			"name": "Bandsintown",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/bandsintown/apis.yaml"
+		},
+		{
+			"name": "Freesound",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/freesound/apis.yaml"
+		},
+		{
+			"name": "Flat",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/flat/apis.yaml"
 		}
 	]
 }

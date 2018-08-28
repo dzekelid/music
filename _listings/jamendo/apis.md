@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/429-jamend
 x-kinRank: "7"
 x-alexaRank: "20601"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/jamendo/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Jamendo
-  x-api-slug: jamendo
-  description: Discover free music downloads & streaming from thousands of independent
-    artists. Explore new songs every day, create your own playlists, and share your
-    favorite tracks and albums with our community.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/429-jamendo.jpg
-  humanURL: http://jamendo.com/
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/jamendo/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.jamendo.com/

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/855-mobile
 x-kinRank: "7"
 x-alexaRank: "482092"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/mobile-roadie/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Mobile Roadie
-  x-api-slug: mobile-roadie
-  description: App maker for Android and iOS. Mobile app builder for iPhone. Create
-    your own iPhone apps without coding! Best app making software Mobile Roadie
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/855-mobile-roadie.jpg
-  humanURL: http://mobileroadie.com
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/mobile-roadie/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://mobileroadie.com/api/

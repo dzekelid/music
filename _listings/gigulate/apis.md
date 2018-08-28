@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/412-gigula
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/gigulate/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Gigulate
-  x-api-slug: gigulate
-  description: Music News, Blogs & Concert Listings, sorted.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/412-gigulate.jpg
-  humanURL: http://gigulate.com/api/
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/gigulate/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.gigulate.com/

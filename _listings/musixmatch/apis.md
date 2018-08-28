@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1621-musix
 x-kinRank: "8"
 x-alexaRank: "2635"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/musixmatch/apis.md
 specificationVersion: "0.14"
-apis:
-- name: musiXmatch
-  x-api-slug: musixmatch
-  description: Musixmatch is the worlds largest catalog of song lyrics and translations
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1621-musixmatch.jpg
-  humanURL: https://musixmatch.com
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/musixmatch/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.musixmatch.com/ws/

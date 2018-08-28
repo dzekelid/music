@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/693-audiom
 x-kinRank: "7"
 x-alexaRank: "39174"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/audiomicro/apis.md
 specificationVersion: "0.14"
-apis:
-- name: AudioMicro
-  x-api-slug: audiomicro
-  description: The AudioMicro API allows our partners to design their own services,
-    programs, and platforms based off of the AudioMicro interface - on the web, desktop,
-    mobile devices, and more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/693-audiomicro.jpg
-  humanURL: http://www.audiomicro.com
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/audiomicro/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.audiomicro.com

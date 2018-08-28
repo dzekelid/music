@@ -6,22 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/227-mixclo
 x-kinRank: "8"
 x-alexaRank: "2983"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/mixcloud/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Mixcloud
-  x-api-slug: mixcloud
-  description: The Mixcloud API has been designed to be simple to use and familiar.
-    This page has all of the information you need to get going.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/227-mixcloud.jpg
-  humanURL: http://www.mixcloud.com/
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/mixcloud/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.mixcloud.com

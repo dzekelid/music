@@ -7,25 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/400-eventf
 x-kinRank: "8"
 x-alexaRank: "26333"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/eventful/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Eventful
-  x-api-slug: eventful
-  description: Eventful is the worlds largest collection of events, taking place in
-    local markets throughout the world, from concerts and sports to singles events
-    and political rallies. Eventful.com is built upon a unique, open platform that
-    enables partners and web applications to leverage Eventfuls data, features and
-    functionality via the Eventful API.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/400-eventful.jpg
-  humanURL: http://eventful.com/
-  baseURL: https:////
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/eventful/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.eventful.com/rest/

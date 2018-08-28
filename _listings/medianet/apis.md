@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/435-median
 x-kinRank: "7"
 x-alexaRank: "522600"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/medianet/apis.md
 specificationVersion: "0.14"
-apis:
-- name: MediaNet
-  x-api-slug: medianet
-  description: MediaNet provides partners catalog, publishing admin, on-demand streaming,
-    DMCA radio, downloads, rights management, reporting, and paymentsunder one roof.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/435-medianet.jpg
-  humanURL: http://www.mndigital.com/
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/medianet/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.mndigital.com/

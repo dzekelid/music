@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/484-songki
 x-kinRank: "8"
 x-alexaRank: "2802"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/songkick/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Songkick
-  x-api-slug: songkick
-  description: Songkick allows you to organize and track your favorite bands, get
-    concert alerts, and buy tickets. Get instant tour dates from your music library.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/484-songkick.jpg
-  humanURL: http://www.songkick.com
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/songkick/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.songkick.com/

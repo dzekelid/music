@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/460-playme
 x-kinRank: "7"
 x-alexaRank: "4834186"
 tags: Music
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/playme-api/apis.md
 specificationVersion: "0.14"
-apis:
-- name: playme_api
-  x-api-slug: playme-api
-  description: Enjoy free access to your favorite songs and online radio stations
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/460-playme_api.jpg
-  humanURL: http://lab.playme.com
-  baseURL: https:///
-  tags: Music
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/music/master/_listings/playme-api/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://lab.playme.com
